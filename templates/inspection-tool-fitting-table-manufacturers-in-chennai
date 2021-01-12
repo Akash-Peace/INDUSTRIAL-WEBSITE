@@ -1,0 +1,1175 @@
+<style>
+.titlebanner{
+    display:block;
+	position: static;
+	width: 100%;
+	height: 4.65%;
+}
+@media screen and (max-width: 600px) {
+  .titlebanner {
+    display:none;
+  }
+}
+.titlebannermobile{
+	display:none;
+}
+
+@media screen and (max-width: 600px) {
+  .titlebannermobile {
+    display:block;
+    position: static;
+	width: 100%;
+	height: 1.6%;
+  }
+}
+
+
+
+
+
+
+.justify {
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+
+
+
+
+
+div.gallery {
+  float: center;
+  width: 50%;
+  height: 16%;
+}
+div.gallery img {
+  width: 50%;
+  height: auto;
+}
+div.desc {
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 600px){
+  div.desc {
+	  padding: 20px;
+	  font-size: 15px;
+      font-weight: bold;
+	  text-align: center;
+  }
+  div.gallery {
+      width: 70%;
+	  height: 13.8%;
+  }
+  div.gallery img {
+      width: 100%;
+      height: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #dadff5;
+  border-bottom-left-radius:30px;
+  border-bottom-right-radius:30px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #2044e0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav .icon {
+  display: none;
+}
+.topnav .iconclose {
+  display: none;
+}
+.activenav {
+  color: #111;
+  text-decoration: none;
+}
+.topnav a:hover{
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dddropdown .dddropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    text-decoration: none;
+    float: right;
+    color: #2044e0;
+    display: block;
+  }
+  .topnav a.iconclose {
+    text-decoration: none;
+    float: right;
+    color: #2044e0;
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive .iconclose {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .topnav.responsive .dddropdown {float: none;}
+  .topnav.responsive .dddropdown-content {position: relative;}
+  .topnav.responsive .dddropdown .dddropbtn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    z-index: 11;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+.dddropdown {
+  float: left;
+  overflow: hidden;
+}
+.dddropdown .dddropbtn {
+  font-size: 16px;
+  border: none;
+  color: #2044e0;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+}
+.dddropdown:hover .dddropbtn {
+  color: #111;
+}
+.dddropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #dadff5;
+  width: auto;
+  height:auto;
+  margin-top:5px;
+  border-bottom-left-radius:50px;
+  border-bottom-right-radius:50px;
+  border-top-left-radius:50px;
+  border-top-right-radius:50px;
+  left: 15;
+  right: 15;
+  z-index: 11;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dddropdown-content .ddheader {
+  background-color: #2044e0;
+  border-top-left-radius:50px;
+  border-top-right-radius:50px;
+  padding: 16px;
+  color: #dadff5;
+}
+
+.showmenu{
+	display: block;
+}
+
+/*.dddropdown:hover .dddropdown-content {
+  display: block;
+}*/
+
+/* Create three equal columns that floats next to each other */
+.ddcolumn {
+  float: left;
+  width: 16%;
+  padding: 10px;
+  background-color: #dadff5;
+  height: 330px;
+  border-bottom-left-radius:30px;
+}
+.ddcolumn a {
+  float: none;
+  color: #2044e0;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.ddcolumn a:hover {
+  font-size: 22px;
+}
+/* Clear floats after the columns */
+.ddrow:after {
+
+  content: "----------";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .respspace { 
+    display:none;
+  }
+  .dddropdown .dddropbtn {
+    font-size: 16px;
+  }
+  .ddcolumn {
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 0px;
+  }
+  .dddropdown-content {
+  margin-top:0px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  left: 0;
+  right: 0;
+}
+.dddropdown-content .ddheader {
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+}
+}
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#navbar {
+  background-color: #dadff5;
+  position: fixed;
+  z-index:10;
+  top: -50px;
+  width: auto;
+  display: block;
+  left: 15;
+  right: 15;
+  opacity:0.8;
+  transition: top 1s;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: #2044e0;
+  text-align: center;
+  padding: 11px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbar a:hover {
+  color: black;
+}
+
+
+
+
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+.homegallery {
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 1s;
+}
+.homegallery:hover {opacity:0.5;}
+
+
+
+
+
+
+
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 43%;
+  max-width: 1500px;
+}
+.modal-contentov {
+  margin: auto;
+  display: block;
+  width: 20%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #dadff5;
+  padding: 10px 0;
+  height: 150px;
+}
+.titlehead {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #dadff5;
+  font-size: 30px;
+  text-decoration:underline;
+  padding: 10px 0;
+  height: 150px;
+}
+.description {
+  margin: -85px;
+  display: block;
+  width: 65%;
+  max-width: 1500px;
+  text-align: justify;
+  font-size: 35px;
+  color: #dadff5;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption, #captionov{
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 1s;
+  animation-name: zoom;
+  animation-duration: 1s;
+}
+.modal-contentov, .titlehead, .description{
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 1s;
+  animation-name: zoom;
+  animation-duration: 1s;
+}
+
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.closex {
+  position: absolute;
+  top: 4%;
+  right: 10%;
+  z-index:1;
+  cursor: pointer;
+  color: #f75;
+  font-size: 90px;
+  font-weight: bold;
+}
+#closeplz{
+  position: absolute;
+  cursor: pointer;
+  top: 4%;
+  right: 10%;
+  z-index:1;
+  color: #f75;
+  font-size: 90px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 700px){
+.closex {
+  top: 75%;
+  right: 45%;
+}
+#closeplz{
+  top: 75%;
+  right: 45%;
+}
+}
+.closex:hover{
+	font-size: 100px;
+	color: #f775;
+}
+#closeplz:hover{
+	font-size: 100px;
+	color: #f775;
+}
+.closex:focus {
+  color: #456;
+  text-decoration: none;
+  cursor: pointer;
+}
+#closeplz:focus {
+  color: #456;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 90%;
+  }
+  .modal-contentov {
+    width: 35%;
+  }
+  .description {
+    font-size: 20px;
+    margin: -15px;
+  }
+  #caption {
+    font-size: 18px;}
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+   .respspace { 
+      display:none;
+   }
+   .forfontsize { 
+      font-size: 15px; 
+   }
+   .forh1size {
+      font-size: 22px;
+   }
+   #forh5size {
+      font-size: 18px;
+   }
+}
+
+
+
+
+
+.mapouter{
+	position:relative;
+	text-align: center;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+}
+#gmap_canvas {
+	width:80%;
+    height:10%;
+}
+
+
+
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right: 0%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 7px;
+  transition: all 0.5s ease;
+  color: white;
+  font-size: 12px;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+.facebook:hover {
+  background-color: white;
+  color: #3B5998;
+}
+.facebook .tooltiptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #3B5998;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 50;
+  top: -2px;
+  right: 110%;
+}
+.facebook .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent #3B5998;
+}
+.facebook:hover .tooltiptext {
+  visibility: visible;
+}
+
+.instagram {
+  background: #DD2A7B;
+  color: white;
+}
+.instagram:hover {
+  background-color: white;
+  color: #DD2A7B;
+}
+.instagram .tooltiptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #DD2A7B;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 50;
+  top: 23px;
+  right: 110%;
+}
+.instagram .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent #DD2A7B;
+}
+.instagram:hover .tooltiptext {
+  visibility: visible;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+.twitter:hover {
+  background-color: white;
+  color: #55ACEE;
+}
+.twitter .tooltiptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #55ACEE;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  right: 110%;
+}
+.twitter .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent #55ACEE;
+}
+.twitter:hover .tooltiptext {
+  visibility: visible;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+.linkedin:hover {
+  background-color: white;
+  color: #007bb5;
+}
+.linkedin .tooltiptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #007bb5;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 75px;
+  right: 110%;
+}
+.linkedin .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent #007bb5;
+}
+.linkedin:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+
+
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inspecion tool fitting table in chennai - Sri Sai Industries</title>
+
+    <meta name="description" content="We offers wide range of applications in fabrication, erection and storage systems which includes industrial racks, mezzanine floors, scaffolding platform & planks, sheds, cupboards, trolleys, platform & staircase, boxes & trays, cable trays and ladders.">
+    <meta name="robots" content="index,follow">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  </head>
+  <body class="forfontsize">
+	<center>
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12" id="Sri_Sai_Industries_Welcomes_You">
+			<img class="titlebanner" src="ssititlebanner.jpg">
+            <img class="titlebannermobile" src="ssititlebannermobile.jpg">
+			<div class="topnav" id="myTopnav">
+				<a href="sri-sai-industries-in-chennai">Home</a>
+				<div class="dddropdown">
+                    <button onclick="showmenu()" class="dddropbtn">Products
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div id="ddm-content" class="dddropdown-content">
+                      <div class="ddheader">
+                        <h2>INDUSTRIAL PRODUCTS</h2>
+                      </div>
+                      <div class="ddrow">
+                        <div class="ddcolumn">
+                          <h3>RACKS</h3>
+                          <a href="material-storage-rack-manufacturers-in-chennai">Material storage rack</a>
+                          <a href="slotted-angle-rack-manufacturers-in-chennai">Slotted angle rack</a>
+                          <a href="heavy-duty-pallet-rack-manufacturers-in-chennai">Heavy duty pallet rack</a>
+						  <a href="heavy-duty-self-rack-manufacturers-in-chennai">Heavy duty self rack</a>
+						  <a href="drum-storage-rack-manufacturers-in-chennai">Drum storage rack</a>
+						  <a href="cantilever-rack-manufacturers-in-chennai">Cantilever rack</a>
+						  <a href="loading-rack-manufacturers-in-chennai">Loading rack</a>
+						  <a href="material-storage-system-manufacturers-in-chennai">Material storage system</a>
+					    </div>  
+                        <div class="ddcolumn">
+                          <h3>MEZZANINE FLOORS</h3>
+                          <a href="mezzanine-floor-welding-type-manufacturers-in-chennai">Mez. floor welding type</a>
+                          <a href="modular-mezzanine-remote-type-manufacturers-in-chennai">Modular Mez. remote type</a>
+                          <a href="mezzanine-floor-top-wood-type-manufacturers-in-chennai">Mez. floor top wood type</a>
+                          <a href="mezzanine-floor-rack-type-manufacturers-in-chennai">Mez. floor rack type</a>
+						</div>  
+                        <div class="ddcolumn">
+                          <h3>PALLETS</h3>
+                          <a href="steel-pallet-manufacturers-in-chennai">Steel pallet</a>
+                          <a href="wire-mesh-pallet-manufacturers-in-chennai">Wire mesh pallet</a>
+                          <a href="weld-mesh-pallet-manufacturers-in-chennai">Weld mesh pallet</a>
+                        </div>
+                        <div class="ddcolumn">
+                          <h3>TROLLEYS</h3>
+                          <a href="platform-trolley-manufacturers-in-chennai">Platform trolley</a>
+                          <a href="tools-trolley-manufacturers-in-chennai">Tools trolley</a>
+                          <a href="industrial-trolley-manufacturers-in-chennai">Industrial trolley</a>
+						  <a href="shelf-trolley-manufacturers-in-chennai">Shelf trolley</a>
+                        </div>
+                        <div class="ddcolumn">
+                          <h3>CUPBOARDS</h3>
+                          <a href="shelf-cupboard-manufacturers-in-chennai">Shelf cupboard</a>
+                          <a href="workers-cupboard-manufacturers-in-chennai">Workers cupboard</a>
+                          <a href="pigeon-cupboard-manufacturers-in-chennai">Pigeon cupboard</a>
+						  <a href="lockers-cupboard-manufacturers-in-chennai">Locker cupboard</a>
+                        </div>
+                        <div class="ddcolumn">
+                          <h3>SCAFFOLDING PLATFORM & PLANKS</h3>
+                          <a href="walkway-plank-manufacturers-in-chennai">Walkway plank</a>
+                          <a href="scaffolding-plank-manufacturers-in-chennai">Scaffolding plank</a>
+                          <a href="steel-walkway-plank-manufacturers-in-chennai">Steel walkway plank</a>
+				        </div>
+                        <div class="ddcolumn">
+                          <h3>SHEDS</h3>
+                          <a href="industrial-shed-manufacturers-in-chennai">Industrial shed</a>
+                          <a href="structural-work-manufacturers-in-chennai">Structural work</a>
+                          <a href="car-shed-manufacturers-in-chennai">Car shed</a>
+                        </div>
+						<div class="ddcolumn">
+                          <h3>PLATFORM & STAIRCASE</h3>
+                          <a href="welding-type-staircase-manufacturers-in-chennai">Welding type staircase</a>
+                          <a href="remote-type-staircase-manufacturers-in-chennai">Remote type staircase</a>
+                        </div>
+						<div class="ddcolumn">
+                          <h3>TABLES</h3>
+                          <a href="heavy-duty-table-manufacturers-in-chennai">Heavy duty table</a>
+                          <a href="assembly-table-manufacturers-in-chennai">Assembly table</a>
+                          <a href="industrial-working-table-manufacturers-in-chennai">Industrial working table</a>
+						  <a href="inspection-tool-fitting-table-manufacturers-in-chennai">Inspection tool fitting table</a>
+                        </div>
+						<div class="ddcolumn">
+                          <h3>BOXES & TRAYS</h3>
+                          <a href="metal-boxes-manufacturers-in-chennai">Metal boxes</a>
+                          <a href="sheet-metal-tray-manufacturers-in-chennai">Sheet metal tray</a>
+                          <a href="bin-tray-manufacturers-in-chennai">Bin tray</a>
+                          <a href="metal-tray-manufacturers-in-chennai">Metal tray</a>
+                        </div>
+						<div class="ddcolumn">
+                          <h3>CABLE TRAYS & LADDERS</h3>
+                          <a href="cable-tray-manufacturers-in-chennai">Cable tray</a>
+						  <a href="cable-ladder-manufacturers-in-chennai">Cable ladder</a>
+                        </div>
+					  </div>
+					</div>
+				</div>
+                <a href="sri-sai-industries-gallery">Gallery</a>
+                <a href="#aboutus">About us</a>
+				<a href="#contactus">Contact us</a>
+				<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="respmenu()">&#9776;</a>
+				<a href="javascript:void(0);" style="font-size:25px;" class="iconclose" onclick="respmenu()">&times;</a>
+            </div>
+			<br>
+			<br class="respspace" >
+			<div id="navbar">
+                <a href="sri-sai-industries-in-chennai">Home</a>
+				<a href="sri-sai-industries-products">Products info</a>
+				<a href="#Sri_Sai_Industries_Welcomes_You">Back to Top</a>
+			</div>
+			<br>
+            <div class="gallery" data-aos="zoom-in">
+				<img onclick="galleryimg(this.id)" class="homegallery" id="myImg3" src="images/inspectiontable.jpg" alt="INSPECTION TOOL FITTING TABLE">
+			  	<div class="desc">INSPECTION TOOL FITTING TABLE</div>
+			</div>
+            <br>
+			<br class="respspace">
+            <div class="justify" style="width: 80%;">
+				<p><center>
+					We provides the best solution in Inspection tool fitting table by using the fine raw material from the best vendors in the industry.
+				</center></p>
+			</div>
+			<br>
+			<br class="respspace">
+			<div class="page-header" style="float:left;">
+				<h1 class="forh1size">
+					<small>Are you still looking for any other </small> Tables?
+				</h1>
+			</div>
+			<br>
+			<br class="respspace">
+            <table class="table table-hover" data-aos="fade-right">
+				<thead>
+					<tr>
+						<th>
+							#
+						</th>
+						<th>
+							Product
+						</th>
+						<th>
+							Image
+						</th>
+						<th>
+							Overview
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="table-danger">
+						<td>
+							1
+						</td>
+						<td>
+							<a style='color:black' href="heavy-duty-table-manufacturers-in-chennai">Heavy duty table</a>
+						</td>
+						<td>
+							<a id="tableinfoimg1"><i style="cursor: pointer" class="fas fa-image"></i></a>
+						</td>
+						<td>
+							<a id="tableinfoov1"><i style="cursor: pointer" class="fas fa-list-alt"></i></a>
+						</td>
+					</tr>
+					<tr class="table-active">
+						<td>
+							2
+						</td>
+						<td>
+							<a style='color:black' href="assembly-table-manufacturers-in-chennai">Assembly table</a>
+						</td>
+						<td>
+							<a id="tableinfoimg2"><i style="cursor: pointer" class="fas fa-image"></i></a>
+						</td>
+						<td>
+							<a id="tableinfoov2"><i style="cursor: pointer" class="fas fa-list-alt"></i></a>
+						</td>
+					</tr>
+					<tr class="table-success">
+						<td>
+							3
+						</td>
+						<td>
+							<a style='color:black' href="industrial-working-table-manufacturers-in-chennai">Industrial working table</a>
+						</td>
+						<td>
+							<a id="tableinfoimg3"><i style="cursor: pointer" class="fas fa-image"></i></a>
+						</td>
+						<td>
+							<a id="tableinfoov3"><i style="cursor: pointer" class="fas fa-list-alt"></i></a>
+						</td>
+					</tr>
+				    
+				</tbody>
+			</table>
+			<br class="respspace">
+			<a href="sri-sai-industries-products" type="button" class="btn btn-block btn-lg btn-primary">
+				More Product info
+			</a>
+			<br>
+            <a href="sri-sai-industries-gallery">
+			<button style="cursor: pointer" class="btn btn-primary btn-lg btn-block">
+				More Product images
+			</button></a>
+            <br>
+			<br class="respspace">
+			<div id="myModal" class="modal">
+			  	<span class="closex">&times;</span>
+			  		<img class="modal-content" id="img01">
+				<div id="caption"></div>
+			</div>
+			<div id="myModalov" class="modal">
+			  	<span id="closeplz">&times;</span>
+			  		<img class="modal-contentov" id="img01ov">
+				<div id="captionov" class="titlehead"></div>
+				<div id="captionov2" class="description"></div>
+			</div>
+			<br id="aboutus">
+			<br>
+			<br class="respspace" >
+			<br class="respspace" >
+			<div class="page-header">
+				<h1 class="forh1size">
+					About Us
+				</h1>
+			</div>
+			<br>
+			<br class="respspace" >
+			<div class="justify" style="width: 80%" data-aos="fade-right">
+			    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+            <div id="abtus"></div>
+            <script>
+                $(function(){
+                  $("#abtus").load("abtus.html");
+                });
+            </script>
+			</div>
+			<br id="contactus">
+			<br>
+			<br class="respspace" >
+			<br class="respspace" >
+			<div class="page-header">
+				<h1 class="forh1size">
+					Contact Us
+				</h1>
+			</div>
+			<br>
+			<br class="respspace" >
+			<form role="form" onsubmit="sendEmail()" data-aos="fade-right">
+                <div class="form-group">
+					<label for="exampleInputEmail">
+						Contact number :
+					</label>
+					<input style="width: 80%" placeholder="Provide your contact number." type="text" class="form-control" id="exampleInputnumber" required>
+				</div>
+				<div class="form-group">
+					<label for="exampleInputEmail">
+						E-mail :
+					</label>
+					<input style="width: 80%" placeholder="Provide your mail address." type="text" class="form-control" id="exampleInputEmail" required>
+				</div>
+				<div class="form-group">
+					<label for="exampleInputEmail">
+						Query/Requirements :
+					</label>
+					<textarea style="width: 80%" placeholder="Describe your requirements." rows="5" class="form-control" id="exampleInputcontent" required></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary" style="cursor:pointer">
+					Submit
+				</button>
+			</form>
+			<br>
+			<br class="respspace" >
+			<br class="respspace" >
+			<br class="respspace" >
+			<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+            <div id="addr"></div>
+            <script>
+                $(function(){
+                  $("#addr").load("addr.html");
+                });
+            </script>
+			<br>
+			<br class="respspace" >
+			<div data-aos="flip-right" class="mapouter">
+				<div class="gmap_canvas">
+					<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=sri%20sai%20industries%2C%2048%20and%2049%2C%20third%20st%2C%20Ambattur%20Industrial%20Estate%2C%20Chennai%20600058&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+					<a href="https://putlocker-is.org"></a>
+				</div>
+			</div>
+			<br>
+			<br class="respspace" >
+			<br class="respspace" >
+			<br class="respspace" >
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <div class="icon-bar">
+              <a href="https://www.facebook.com/srisaiindustries.srisaiindustries.94" class="facebook"><i class="fa fa-facebook"></i><span class="tooltiptext">Follow us on FACEBOOK</span></a>
+              <a href="https://www.instagram.com/srisaiindustries?r=nametag" class="instagram"><i class="fa fa-instagram"></i><span class="tooltiptext">Follow us on INSTAGRAM</span></a>   
+              <a href="https://twitter.com/srisai_industry?s=08" class="twitter"><i class="fa fa-twitter"></i><span class="tooltiptext">Follow us on TWITTER</span></a>  
+              <a href="https://www.linkedin.com/in/sri-sai-industries-a3a511200" class="linkedin"><i class="fa fa-linkedin"></i><span class="tooltiptext">Follow us on LINKEDIN</span></a>
+            </div>
+		</div>
+	</div>
+</div>
+</center>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script>
+		function sendEmail() {
+		    event.preventDefault();
+			Email.send({
+				SecureToken : "02d39e4a-2c53-4feb-9341-4c4ccb2f0559",
+				To : 'srisaiindustries68@gmail.com',
+				From : 'ssiwebsite68@gmail.com',
+				Subject : "SSI-WEBSITE",
+				Body : "Number: <br>"+ document.getElementById("exampleInputnumber").value + "<br>E-mail: <br>"+ document.getElementById("exampleInputEmail").value + "<br>Content: <br>" + document.getElementById("exampleInputcontent").value,
+				}).then(function(response){
+				  if (response == 'OK'){
+					alert("Your query sent successfully.");
+				  } else {
+					alert("Unable to send your query.");
+					console.log(response);
+				  }
+				});
+		}
+	</script>
+    <script>
+        var i = document.getElementsByClassName("icon");
+        var ic = document.getElementsByClassName("iconclose");
+        function myFunction(z) {
+		  if (z.matches) {
+			i[0].style.display = "none";
+			ic[0].style.display = "none";
+		  }
+		  else{
+			i[0].style.display = "block";
+		  }
+		}
+        var z = window.matchMedia("(min-width: 601px)")
+		myFunction(z)
+		z.addListener(myFunction)
+    	var value_for_ddm_toggle = 0;
+    	function respmenu() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+			$('.topnav a.icon').css('display','none');
+			$('.topnav a.iconclose').css('display','block');
+			//document.getElementsByClassName("icon")[0].style.display = "none";
+		    //document.getElementsByClassName("iconclose")[0].style.display = "block";
+		  } else {
+			x.className = "topnav";
+			$('.topnav a.icon').css('display','block');
+			$('.topnav a.iconclose').css('display','none');
+			//document.getElementsByClassName("iconclose")[0].style.display = "none";
+		    //document.getElementsByClassName("icon")[0].style.display = "block";
+			if (value_for_ddm_toggle == 1){
+				document.getElementById("ddm-content").classList.toggle("showmenu");
+				value_for_ddm_toggle = 0;
+			}
+		  }
+		}
+	</script>
+    <script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+		  if (document.body.scrollTop > 775 || document.documentElement.scrollTop > 775) {
+			document.getElementById("navbar").style.top = "0";
+		  } else {
+			document.getElementById("navbar").style.top = "-50px";
+		  }
+		}
+	</script>
+    <script>
+		var modal = document.getElementById("myModal");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		function galleryimg(imgid){
+		  var img = document.getElementById(imgid);
+		  modal.style.display = "block";
+		  modalImg.src = img.src;
+		  captionText.innerHTML = img.alt;
+		}
+		var span = document.getElementsByClassName("closex")[0];
+		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+
+	</script>
+  	<script>
+		var infomodal = document.getElementById("myModal");
+		var infomodalImg = document.getElementById("img01");
+		var infocaptionText = document.getElementById("caption");
+		var infoimg = document.getElementById("tableinfoimg1");
+		infoimg.onclick = function(){
+		  infomodal.style.display = "block";
+		  infomodalImg.src = "images/heavydutytable.jpg";
+		  infocaptionText.innerHTML = "HEAVY DUTY TABLE";
+		}
+		var infoimg = document.getElementById("tableinfoimg2");
+		infoimg.onclick = function(){
+		  infomodal.style.display = "block";
+		  infomodalImg.src = "images/assemblytable.jpg";
+		  infocaptionText.innerHTML = "ASSEMBLY TABLE";
+		}
+		var infoimg = document.getElementById("tableinfoimg3");
+		infoimg.onclick = function(){
+		  infomodal.style.display = "block";
+		  infomodalImg.src = "images/industrialworktable.jpg";
+		  infocaptionText.innerHTML = "INDUSTRIAL WORKING TABLE";
+		}
+	</script>
+    <script>
+		var infoovmodal = document.getElementById("myModalov");
+		var infoovmodalImg = document.getElementById("img01ov");
+		var infoovcaptionText1 = document.getElementById("captionov");
+		var infoovcaptionText2 = document.getElementById("captionov2");
+		var infoovimg = document.getElementById("tableinfoov1");
+		infoovimg.onclick = function(){
+		  infoovmodal.style.display = "block";
+		  infoovmodalImg.src = "images/heavydutytable.jpg";
+		  infoovcaptionText1.innerHTML = "HEAVY DUTY TABLE"
+		  infoovcaptionText2.innerHTML = "We providing wide range of Heavy duty table. These products are manufactured from the superior quality raw-material procured from the finest vendors in industry.";
+		}
+		var infoovimg = document.getElementById("tableinfoov2");
+		infoovimg.onclick = function(){
+		  infoovmodal.style.display = "block";
+		  infoovmodalImg.src = "images/assemblytable.jpg";
+		  infoovcaptionText1.innerHTML = "ASSEMBLY TABLE"
+		  infoovcaptionText2.innerHTML = "We offer best quality Assembly table backed by the professional expertise. These are widely used in various storehouses.";
+		}
+		var infoovimg = document.getElementById("tableinfoov3");
+		infoovimg.onclick = function(){
+		  infoovmodal.style.display = "block";
+		  infoovmodalImg.src = "images/industrialworktable.jpg";
+		  infoovcaptionText1.innerHTML = "INDUSTRIAL WORKING TABLE"
+		  infoovcaptionText2.innerHTML = "Our Industrial work table are used in various application. These are made with the finest raw material by keeping in mind the client satisfaction.";
+		}
+		var spanov = document.getElementById("closeplz");
+		spanov.onclick = function() {
+		  infoovmodal.style.display = "none";
+		}
+		window.onclick = function(event) {
+		  if (event.target == infoovmodal) {
+			infoovmodal.style.display = "none";
+		  }
+		  if (event.target == modal) {
+			modal.style.display = "none";
+		  }
+		}
+	</script>
+    <script>
+		function showmenu() {
+		  if (value_for_ddm_toggle == 0){
+		  	value_for_ddm_toggle = 1;
+		  } else {
+		  	value_for_ddm_toggle = 0;
+		  }
+		  document.getElementById("ddm-content").classList.toggle("showmenu");
+
+		}
+	</script>
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+    <script>
+        AOS.init({
+          duration: 1500,
+        })
+    </script>    
+  </body>
+</html>
