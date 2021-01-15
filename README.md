@@ -3,7 +3,7 @@
   <img src="https://github.com/Akash-Peace/INDUSTRIAL-WEBSITE/blob/main/templates/ssititlelogo.png" alt="Logo" width="150" height="150">
   <h3 align="center">SRI SAI INDUSTRIES</h3>
   <p align="center">
-    <a href="https://techterms.com/definition/staticwebsite"><strong>A Static Website</strong></a>
+    <a href="https://en.wikipedia.org/wiki/Static_web_page"><strong>A Static Website</strong></a>
     <br />
     <br />
     <a href="https://srisaiindustriesinchennai.web.app/">View Website</a>
