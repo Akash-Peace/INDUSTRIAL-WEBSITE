@@ -22,7 +22,7 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#built-with">Built With</a></li>
-    <li><a href="#supportives">Supportives</a></li>
+    <li><a href="#powered-by">Powered by</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -43,7 +43,7 @@ Sri Sai Industries project objective is to showcase their industrial products vi
 * [JavaScript](https://www.javascript.com/)
 
 
-## Supportives
+## Powered by
 
 * [Smtpjs](https://smtpjs.com/)
 * [Bootstrap](https://getbootstrap.com/)
