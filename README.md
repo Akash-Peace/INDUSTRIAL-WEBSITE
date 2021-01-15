@@ -22,6 +22,7 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#built-with">Built With</a></li>
+    <li><a href="#supportives">Supportives</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -33,20 +34,30 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Friender project objective is to find friends based on your favourites of whoever registered in friender website. As it is mentioned, I decided to present this project as a web application, particularly with [Django framework](https://www.djangoproject.com/). Your data is private and secure as it is hosted in [pythonanywhere](https://www.pythonanywhere.com/). This project is liscened by [MIT](https://github.com/Akash-Peace/DJANGO-WEBSITE/blob/master/LICENSE). This project is free to use, fork, modify and distribute. If you like this project give a _star_ and follow me.
+Sri Sai Industries project objective is to showcase their industrial products via website. Featured with [Smtpjs](https://smtpjs.com/) mail service and [Google Maps](https://www.google.com/maps/) service. This website is secured and hosted by [firebase](https://firebase.google.com/). This project is liscened by [MIT](https://github.com/Akash-Peace/INDUSTRIAL-WEBSITE/blob/master/LICENSE). If you like this project give a _star_ and follow me.
 
 ## Built With
 
-* [Django](https://www.djangoproject.com/)
 * Html
 * Css
+* [JavaScript](https://www.javascript.com/)
 
+
+## Suportives
+
+* [Smtpjs](https://smtpjs.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Unpkg](https://unpkg.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Adobe Spark](https://spark.adobe.com/)
+* [Google Maps](https://www.google.com/maps/)
+* [Firebase](https://firebase.google.com/)
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Usage of this project is to refresh your view and favourites with that you can explore new friends and make a good bond with them.
+Usage of this project is to view Sri Sai Industries's Industrial products, gallery, about us and contacts. Users can view all those informations and contact them through their contact details or just mail your needs from the website. Users can make a great deal & good understanding about their products.
 
 
 
@@ -54,7 +65,7 @@ Usage of this project is to refresh your view and favourites with that you can e
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/Akash-Peace/DJANGO-WEBSITE/blob/master/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/Akash-Peace/INDUSTRIAL-WEBSITE/blob/master/LICENSE) for more information.
 
 
 
