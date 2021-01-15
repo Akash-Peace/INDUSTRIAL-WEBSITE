@@ -43,7 +43,7 @@ Sri Sai Industries project objective is to showcase their industrial products vi
 * [JavaScript](https://www.javascript.com/)
 
 
-## Suportives
+## Supportives
 
 * [Smtpjs](https://smtpjs.com/)
 * [Bootstrap](https://getbootstrap.com/)
