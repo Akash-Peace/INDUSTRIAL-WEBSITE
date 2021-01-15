@@ -65,7 +65,7 @@ Usage of this project is to view Sri Sai Industries's Industrial products, galle
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/Akash-Peace/INDUSTRIAL-WEBSITE/blob/master/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/Akash-Peace/INDUSTRIAL-WEBSITE/blob/main/LICENSE) for more information.
 
 
 
