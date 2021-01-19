@@ -24,6 +24,7 @@
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#powered-by">Powered by</a></li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -60,6 +61,9 @@ Sri Sai Industries project objective is to showcase their industrial products vi
 Usage of this project is to view Sri Sai Industries's Industrial products, gallery, about us and contacts. Users can view all those informations and contact them through their contact details or just mail your needs from the website. Users can make a great deal & good understanding about their products.
 
 
+## Screenshots
+
+View [Screenshots](https://github.com/Akash-Peace/INDUSTRIAL-WEBSITE/tree/main/Screenshots) here.
 
 
 <!-- LICENSE -->
