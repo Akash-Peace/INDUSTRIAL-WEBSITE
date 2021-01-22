@@ -35,7 +35,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Sri Sai Industries project objective is to showcase their industrial products via website. Featured with [Smtpjs](https://smtpjs.com/) mail service and [Google Maps](https://www.google.com/maps/) service. This website is secured and hosted by [firebase](https://firebase.google.com/). This project is licensed by [MIT](https://github.com/Akash-Peace/INDUSTRIAL-WEBSITE/blob/main/LICENSE). If you like this project give a _star_ and follow me.
+Sri Sai Industries project objective is to showcase their industrial products via the website. Featured with [Smtpjs](https://smtpjs.com/) mail service and [Google Maps](https://www.google.com/maps/) service. This website is secured and hosted by [firebase](https://firebase.google.com/). [MIT](https://github.com/Akash-Peace/INDUSTRIAL-WEBSITE/blob/main/LICENSE) licenses this project. If you like this project give a _star_ and follow me.
 
 ## Built With
 
