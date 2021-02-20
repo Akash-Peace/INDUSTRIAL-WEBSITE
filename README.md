@@ -22,10 +22,11 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#built-with">Built With</a></li>
-    <li><a href="#powered-by">Powered by</a></li>
+    <li><a href="#powered-by">Powered By</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#license">License</a></li>
+    <li><a href="#my-system-spec">My System Spec</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -44,7 +45,7 @@ Sri Sai Industries project objective is to showcase their industrial products vi
 * [JavaScript](https://www.javascript.com/)
 
 
-## Powered by
+## Powered By
 
 * [Smtpjs](https://smtpjs.com/)
 * [Bootstrap](https://getbootstrap.com/)
@@ -72,11 +73,25 @@ View [Screenshots](https://github.com/Akash-Peace/INDUSTRIAL-WEBSITE/tree/main/S
 Distributed under the MIT License. See [LICENSE](https://github.com/Akash-Peace/INDUSTRIAL-WEBSITE/blob/main/LICENSE) for more information.
 
 
+## My System Spec
+
+**OS:** [Linux Mint](https://linuxmint.com/)\
+**Model:** Acer Aspire 5 A515-51G\
+**Processor:** Intel i5 7th gen\
+**Ram:** DDR4 8gb\
+**Disk:** HDD 100gb
+
 
 <!-- CONTACT -->
 ## Contact
 
-<strong>Hi, I'm Akash.A, Computer Science Engineer.</strong>
+Akash.A,\
+Rajalakshmi Engineering College,\
+Computer Science Engineer,\
+akashcse2000@gmail.com,\
+8608550403,\
+Chennai.
+
 
 ![GitHub metrics](https://metrics.lecoq.io/Akash-Peace)  
 
